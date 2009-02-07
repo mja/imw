@@ -40,6 +40,13 @@ extracting, transforming and loading data.
   have imw manage the acquisition and loading, but replace the entire munging
   step with a simple @'sh "perl dostuff.pl"'@ or even @'make'@.
 
+h2. Prerequisites
+
+h3. Gems
+
+- activeresource
+- fastercsv
+
 h2. Setup
 
 Since I'm not smart enough to get this bootstrapped the right way, add this to
